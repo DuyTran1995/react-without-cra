@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "plugin:import/recommended",
+    "eslint:recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "requireConfigFile": false
+  },
+  "globals": {
+    "document": false
+  },
+  "rules": {
+    "quotes": ["error", "single"],
+    "import/prefer-default-export": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/prefer-stateless-function": "off"
+  }
+}
